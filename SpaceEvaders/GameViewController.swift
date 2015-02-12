@@ -26,8 +26,8 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
         scene.scaleMode = .AspectFill
         scene.viewController = self
         skView.presentScene(scene)
-        loadAds()
-        addAd()
+        //loadAds()
+        //addAd()
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "shareAction:", name: "social", object: nil)
     }
     
